@@ -7,6 +7,7 @@ import Container from '@mui/material/Container';
 import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
 import { useEffect } from 'react'
 import { useState } from 'react'
+import Note from '../note/Note';
 
 
 const Category = () => {
@@ -75,6 +76,7 @@ const Category = () => {
           Filters
         </Button>
       </Box>
+      <Note />
 
     </Container>
   )
